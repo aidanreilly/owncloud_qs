@@ -2,7 +2,7 @@
 title: Creating new ownCloud user accounts
 parent: Installing and configuring the software
 has_children: false
-nav_order: 8
+nav_order: 7
 ---
 
 # Creating new ownCloud user accounts

@@ -14,7 +14,7 @@ nav_order: 2
 	sudo systemctl start httpd
 ```
 You should see the apache server active on default port 80: 
-`Active: active (running) since Mon 2020-06-01 22:22:43 GMT; 2s ago`
+`Active: active (running) since ...`
 If Apache is not installed, please follow the instructions described in [Prerequisites](../prereqs.md)
 
 3. Enable the Apache server to start up automatically at system boot time.

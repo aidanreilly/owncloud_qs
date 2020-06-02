@@ -10,9 +10,9 @@ To access ownCloud, download the appropriate application for your device or oper
 
 |Operating System|Download link|
 |---|---|
-|Windows|[Desktop Client for Windows](https://download.ownCloud.com/desktop/stable/ownCloud-2.6.1.13407.13049.msi)|
-|Mac OSX|[Desktop Client for Mac OSX](https://download.ownCloud.com/desktop/stable/ownCloud-2.6.1.13096.pkg)|
-|Linux|[Desktop Client for Linux](https://software.opensuse.org/download.html?project=isv:ownCloud:desktop&package=ownCloud-client)|
+|Windows|[Desktop client for Windows](https://download.ownCloud.com/desktop/stable/ownCloud-2.6.1.13407.13049.msi)|
+|Mac OSX|[Desktop client for Mac OSX](https://download.ownCloud.com/desktop/stable/ownCloud-2.6.1.13096.pkg)|
+|Linux|[Desktop client for Linux](https://software.opensuse.org/download.html?project=isv:ownCloud:desktop&package=ownCloud-client)|
 |iOS|[Apple Appstore](https://apps.apple.com/app/id1359583808)|
 |Android|[Google Play](https://play.google.com/store/apps/details?id=com.ownCloud.android)|
 
@@ -24,7 +24,7 @@ To install the desktop client on CentOS 8 from source, enter the following at th
 	yum install ownCloud-client
 ```
 
-## Logging in to ownCloud
+## Signing in to ownCloud
 
 1. Launch the application on your device or computer. 
 2. Enter the ownCloud server URL as provided by your administrator.

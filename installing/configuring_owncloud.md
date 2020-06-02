@@ -18,6 +18,7 @@ The host IP address is displayed beside the relevant network interface, for exam
 	sudo nano /var/www/ownCloud/config/config.php
 ```
 Add the IP address underneath the default loopback address of 127.0.0.1:
+
 ```
   'trusted_domains' => 
   array (
@@ -26,6 +27,7 @@ Add the IP address underneath the default loopback address of 127.0.0.1:
   ),
 
 ```
+
 Then, restart Apache: 
 ```shell
 	sudo systemctl restart httpd

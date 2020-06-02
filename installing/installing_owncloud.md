@@ -22,6 +22,7 @@ nav_order: 5
 	sudo nano /etc/httpd/conf.d/ownCloud.conf
 ```
 Append the following to `ownCloud.conf`:
+
 ```
 Alias /ownCloud "/var/www/ownCloud/"
 
@@ -38,6 +39,7 @@ Alias /ownCloud "/var/www/ownCloud/"
 
 </Directory>
 ```
+
 Save and exit the file, and restart the webserver.
 ```shell
 	sudo systemctl restart httpd

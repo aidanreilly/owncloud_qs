@@ -32,7 +32,9 @@ Log in to the MariaDB database engine.
 
 Create an ownCloud database, and add an admin user:  
 
+```
 	MariaDB [(none)]> CREATE DATABASE ownCloud_db;
 	MariaDB [(none)]> GRANT ALL ON ownCloud_db.* TO 'owncloud_admin'@'localhost' IDENTIFIED BY 'YourStrongP@ssword';
 	MariaDB [(none)]> FLUSH PRIVILEGES;
 	MariaDB [(none)]> EXIT;
+```

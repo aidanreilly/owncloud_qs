@@ -27,7 +27,7 @@ Configure the Apache webserver to serve the application by creating a new deploy
 
 Append the following to `ownCloud.conf`:
 
-```
+```ApacheConf
 Alias /ownCloud "/var/www/ownCloud/"
 
 <Directory /var/www/ownCloud/>

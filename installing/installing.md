@@ -8,4 +8,4 @@ nav_order: 3
 
 Follow the sections below in sequence to install and configure ownCloud.
 
-This QuickStart was tested on CentOS 8, package release 147.8.1.el8_1. To install ownCloud, you must have root access on the host machine.
+*Note:* This QuickStart was tested on CentOS 8, package release 147.8.1.el8_1. To install ownCloud, you must have root access on the host machine.

@@ -1,8 +1,8 @@
 ---
 title: Configuring the ownCloud server IP address
-parent: Installing and configuring the ownCloud software
+parent: Installing and configuring the ownCloud server
 has_children: false
-nav_order: 6
+nav_order: 1
 ---
 
 # Configuring the ownCloud server IP address

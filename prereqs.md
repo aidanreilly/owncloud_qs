@@ -14,4 +14,5 @@ Software prerequisites to install ownCloud on CentOS 8 are listed below. ownClou
 |MariaDB MySQL database|10.3.17-MariaDB|[Installing MariaDB on RHEL 8](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/using-databases#installing-mariadb_using-mariadb)|
 |PHP|PHP 7.3.18|[Installing PHP](installing/installing_php.md)|
 |ownCloud|ownCloud 10.4.1|[Installing ownCloud](installing/installing_owncloud.md)
+
 **Table 1: Software prerequisites**

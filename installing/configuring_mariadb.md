@@ -21,12 +21,12 @@ You should see a message that the database is active and running.
 	systemctl enable mariadb
 ```
 
-4. Create a database for ownCloud files. Log in to the MariaDB database engine:
+4. Create a database for ownCloud files. Log in to the MariaDB database engine.
 
 ```shell
 	mysql -u root -p
 ```
-Create a database, and add an admin user:  
+Create a database, and add an admin user.
 ```
 	MariaDB [(none)]> CREATE DATABASE ownCloud_db;
 	MariaDB [(none)]> GRANT ALL ON ownCloud_db.* TO 'owncloud_admin'@'localhost' IDENTIFIED BY 'YourStrongP@ssword';

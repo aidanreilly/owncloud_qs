@@ -9,7 +9,7 @@ nav_order: 6
 
 To allow users to access the ownCloud application over the network, you must update the trusted domains list in `config.php` with the host IP address.
 
-On the host machine that onwCloud is installed on, enter the following at the command line:
+On the host machine that ownCloud is installed on, enter the following at the command line:
 ```shell	
 	ip addr show
 ```

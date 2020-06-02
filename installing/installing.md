@@ -1,7 +1,7 @@
 ---
 title: Installing and configuring the software
 has_children: true
-nav_order: 3
+nav_order: 2
 ---
 
 # Installling and configuring the software

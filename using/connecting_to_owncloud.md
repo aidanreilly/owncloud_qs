@@ -1,7 +1,7 @@
 ---
 title: Connecting to ownCloud using the desktop client or app
 has_children: true
-nav_order: 5
+nav_order: 3
 ---
 
 # Connecting to ownCloud using the desktop client or app

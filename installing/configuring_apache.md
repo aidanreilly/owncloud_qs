@@ -7,7 +7,7 @@ nav_order: 2
 
 # Configuring Apache
 
-1. Install Apache. See Prerequisites](../prereqs.md) for complete installation instructions.
+1. Install Apache. See [Prerequisites](../prereqs.md) for complete installation instructions.
 
 2. Verify Apache is installed and running. Enter the following at the command line:
 ```shell

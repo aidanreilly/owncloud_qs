@@ -22,26 +22,26 @@ nav_order: 5
 	sudo nano /etc/httpd/conf.d/ownCloud.conf
 ```
 Append the following to `ownCloud.conf`:
-
-```
-Alias /ownCloud "/var/www/ownCloud/"
-<Directory /var/www/ownCloud/>
-  Options +FollowSymlinks
-  AllowOverride All
- <IfModule mod_dav.c>
-  Dav off
- </IfModule>
- SetEnv HOME /var/www/ownCloud
- SetEnv HTTP_HOME /var/www/ownCloud
-</Directory>
-```
-
+    ```
+    Alias /ownCloud "/var/www/ownCloud/"
+    <Directory /var/www/ownCloud/>
+      Options +FollowSymlinks
+      AllowOverride All
+     <IfModule mod_dav.c>
+      Dav off
+     </IfModule>
+     SetEnv HOME /var/www/ownCloud
+     SetEnv HTTP_HOME /var/www/ownCloud
+    </Directory>
+    ```
 Save and exit the file, and restart the webserver.
-```shell
-	sudo systemctl restart httpd
-```
+    ```shell
+    	sudo systemctl restart httpd
+    ```
+
 4. Allow the Apache webserver to write to ownCloud’s directory under SELinux.
 ```shell
 	sudo setsebool -P httpd_unified 1
 ```
+
 5. Create the administrator ownCloud user. Visit http://127.0.0.1/owncloud in a web browser on the host where you have installed the ownCloud server. The first time you enter the site, you will be prompted to create an administrator username and password. Use this account to administer ownCloud and manage users. 

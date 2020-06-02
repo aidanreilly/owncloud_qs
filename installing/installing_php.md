@@ -23,13 +23,14 @@ nav_order: 3
 ```shell
 	sudo dnf module list php
 ```
+The available PHP modules, stream, and installation profiles are listed. 
 
-4. The available PHP modules, stream, and installation profiles are listed. Next, reset PHP to the base version:
+4. Next, reset PHP to the base version.
 ```shell
 	sudo dnf module reset php
 ```
 
-5. Following reset, enable the PHP Remi 7.3 module. 
+5. After resetting the base PHP version, enable the PHP Remi 7.3 module. 
 ```shell	
 	sudo dnf module enable php:remi-7.3
 ```
@@ -50,7 +51,6 @@ You should see a message that the php-fpm.service is active.
 ```shell
 	php -v 
 ```
-
 You should see a `PHP 7.3.18` message. 
 
 9. Start up php-fpm:

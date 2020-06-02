@@ -7,14 +7,14 @@ nav_order: 4
 
 # Installing and configuring PHP
 
-ownCloud 10.4.1 on CentOS 8 requires PHP 7.3. PHP versions later than 7.3 are not supported. Check the [ownCloud Supported Prerequisties](https://doc.ownCloud.com/server/10.2/admin_manual/installation/system_requirements.html) for latest supported PHP version. To install PHP, complete the following steps:
+ownCloud 10.4.1 on CentOS 8 requires PHP 7.3 to be installed. PHP versions later than 7.3 are not supported. Check the [ownCloud Supported Prerequisties](https://doc.ownCloud.com/server/10.2/admin_manual/installation/system_requirements.html) for the latest supported PHP version. To install PHP, complete the following steps:
 
 1. Install the EPEL repository.
 ```shell
 	sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-2. Next, install yum utils and enable the remi-repository.
+2. Next, install yum utils and enable the Remi repository.
 ```shell
 	sudo dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
 ```
@@ -35,7 +35,7 @@ The available PHP modules, stream, and installation profiles are listed.
 	sudo dnf module enable php:remi-7.3
 ```
 
-6. Verify the PHP version is installed.
+6. Verify the correct PHP version is installed.
 ```shell
 	php -v 
 ```
@@ -46,14 +46,14 @@ You should see a message with the PHP version - `PHP 7.3.18`.
 	sudo dnf install php php-opcache php-gd php-curl php-mysqlnd php-intl php-json php-ldap php-mbstring php-xml php-zip
 ```
 
-8. Start up PHP-FPM.
+8. Start PHP-FPM.
 ```shell
 	sudo systemctl start php-fpm
 ```
 You should see a message that the php-fpm.service is active: 
 `Active: active (running) since Mon 2020-06-01 22:40:24 GMT; 30s ago`
 
-9. Set PHP-FPM to start up automatically at system boot time.
+9. Set PHP-FPM to start automatically at system boot time.
 ```shell
 	sudo systemctl enable php-fpm
 ```

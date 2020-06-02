@@ -44,4 +44,4 @@ Save and exit the file, and restart the webserver.
 	sudo setsebool -P httpd_unified 1
 ```
 
-5. Create the administrator ownCloud user. Visit http://127.0.0.1/owncloud in a web browser on the host where you have installed the ownCloud server. The first time you enter the site, you will be prompted to create an administrator username and password. Use this account to administer ownCloud and manage users. 
+5. Create the administrator ownCloud user. Visit [http://127.0.0.1/owncloud](http://127.0.0.1/owncloud) in a web browser on the host where you have installed the ownCloud server. The first time you enter the site, you will be prompted to create an administrator username and password. Use this account to administer ownCloud and manage users. 

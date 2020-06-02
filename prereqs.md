@@ -6,7 +6,7 @@ nav_order: 1
 
 # Prerequisites
 
-Software prerequisites are listed below. ownCloud requires a full LAMP stack to be installed. Installing LAMP on CentOS follows the same procedures as installing on Red Hat Enterprise Linux (RHEL).
+Software prerequisites to install owncloud on CentOS 8 are listed below. ownCloud requires a full LAMP stack to be installed. Installing LAMP on CentOS follows the same procedures as installing on Red Hat Enterprise Linux (RHEL).
 
 |Component|Software version|Installation information|
 |---|---|---|

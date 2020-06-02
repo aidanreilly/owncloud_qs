@@ -6,7 +6,7 @@ nav_order: 3
 
 # Connecting to ownCloud using the desktop client or app
 
-You can access ownCloud on desktop or mobile by downloading the appropriate application for your device or operating system: 
+To access ownCloud, download the appropriate application for your device or operating system: 
 
 |Operating System|Download link|
 |---|---|
@@ -23,3 +23,9 @@ To install the desktop client on CentOS 8 from source, enter the following at th
 	wget https://download.opensuse.org/repositories/isv:ownCloud:desktop/CentOS_8/isv:ownCloud:desktop.repo
 	yum install ownCloud-client
 ```
+
+## Logging in to ownCloud
+
+1. Launch the application on your device or computer. 
+2. Enter the ownCloud server URL as provided by your administrator.
+3. Enter your username and password as provided by your administrator.

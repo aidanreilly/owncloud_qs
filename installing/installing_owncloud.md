@@ -5,21 +5,21 @@ has_children: false
 nav_order: 5
 ---
 
-## Installing and configuring ownCloud
+# Installing and configuring ownCloud
 
-1. Download the latest ownCloud package.
+Download the latest ownCloud package.
 
 ```shell
 	wget https://download.owncloud.org/community/ownCloud-10.4.1-qa.tar.bz2
 ```
 
-2. Extract the `ownCloud-10.4.1.tar.bz2` tarball file to the /var/www/ directory:
+Extract the `ownCloud-10.4.1.tar.bz2` tarball file to the /var/www/ directory:
 
 ```shell
 	sudo tar -jxf ownCloud-10.4.1.tar.bz2 -C /var/www/
 ```
 
-3. Configure the Apache webserver to serve the application by creating a new deployment configuration. 
+Configure the Apache webserver to serve the application by creating a new deployment configuration. 
 
 ```shell
 	sudo nano /etc/httpd/conf.d/ownCloud.conf
@@ -50,7 +50,7 @@ Save and exit the file, and restart the webserver.
 	sudo systemctl restart httpd
 ```
 
-4. Allow the Apache webserver to write to ownCloud’s directory under SELinux:
+Allow the Apache webserver to write to ownCloud’s directory under SELinux:
 
 ```shell
 	sudo setsebool -P httpd_unified 1

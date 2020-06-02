@@ -14,18 +14,22 @@ Install the EPEL repository.
 ```shell
 	sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
+
 Next, install yum utils and enable the remi-repository:
 
 ```shell
 	sudo dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
 ```
+
 After installing yum-utils and Remi packages, search for available PHP modules:
+
 
 ```shell
 	sudo dnf module list php
 ```
 
 The available PHP modules, stream, and installation profiles are listed. Next, reset PHP to the base version:
+
 
 ```shell
 	sudo dnf module reset php
@@ -42,6 +46,7 @@ To complete the PHP installation, install PHP, PHP-FPM (FastCGI Process Manager)
 ```shell
 	sudo dnf install php php-opcache php-gd php-curl php-mysqlnd php-intl php-json php-ldap php-mbstring php-xml php-zip
 ```
+
 Check that php-fpm is running:
 
 ```shell
@@ -57,6 +62,7 @@ Verify the PHP version.
 ```shell
 	php -v 
 ```
+
 You should see a `PHP 7.3.18` message. 
 
 Start up php-fpm:
@@ -64,6 +70,7 @@ Start up php-fpm:
 ```shell
 	sudo systemctl start php-fpm
 ```
+
 Next, set PHP-FPM to start up automatically at system boot time.
 
 ```shell
@@ -75,6 +82,7 @@ Configure SELinux to allow Apache to execute PHP code with PHP-FPM:
 ```shell	
 	setsebool -P httpd_execmem 1
 ```
+
 Restart the Apache web server to allow Apache to start using PHP.
 
 ```shell	

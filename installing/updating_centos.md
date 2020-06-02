@@ -1,6 +1,6 @@
 ---
 title: Updating CentOS
-parent: Installling and configuring the software
+parent: Installing and configuring the software
 has_children: false
 nav_order: 1
 ---

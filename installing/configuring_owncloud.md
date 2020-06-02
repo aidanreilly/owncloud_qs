@@ -33,4 +33,4 @@ Then, restart Apache:
 	sudo systemctl restart httpd
 ```
 
-Configuring the ownCloud server web address for access beyond the local network is beyond the scope of this Quickstart guide. To learn more, visit [Changing Your ownCloud URL](https://doc.ownCloud.com/server/admin_manual/installation/changing_the_web_route.html)
+Configuring the ownCloud server web address for access outside the local network is beyond the scope of this Quickstart guide. To learn more, visit [Changing Your ownCloud URL](https://doc.ownCloud.com/server/admin_manual/installation/changing_the_web_route.html)

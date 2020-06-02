@@ -1,11 +1,11 @@
 ---
-title: Installing and Configuring MariaDB
+title: Installing and configuring MariaDB
 parent: Installing and configuring the software
 has_children: false
 nav_order: 3
 ---
 
-# Installing and Configuring MariaDB
+# Installing and configuring MariaDB
 
 1. Install MariaDB. See [Prerequisites](../prereqs.md) for complete installation instructions.
 

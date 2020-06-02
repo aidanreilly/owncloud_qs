@@ -39,7 +39,6 @@ Alias /ownCloud "/var/www/ownCloud/"
 
 </Directory>
 ```
-
 Save and exit the file, and restart the webserver.
 ```shell
 	sudo systemctl restart httpd

@@ -21,7 +21,7 @@ You should see a message that the database is active and running.
 	systemctl enable mariadb
 ```
 
-4. Log in to the MariaDB database engine.
+4. Lastly, create the database. Log in to the MariaDB database engine.
 
 ```shell
 	mysql -u root -p

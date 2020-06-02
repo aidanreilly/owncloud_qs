@@ -15,7 +15,7 @@ You should see the apache server active on default port 80:
 
 `Active: active (running) since Mon 2020-06-01 22:22:43 GMT; 2s ago`
 
-If Apache is not installed, please follow the instructions described in [Prerequisites](prereqs.md)
+If Apache is not installed, please follow the instructions described in [Prerequisites](../prereqs.md)
 
 Enable the Apache server to start up automatically at system boot time.
 

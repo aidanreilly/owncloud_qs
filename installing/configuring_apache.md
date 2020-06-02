@@ -1,11 +1,11 @@
 ---
-title: Configuring Apache
+title: Installing and Configuring Apache
 parent: Installing and configuring the software
 has_children: false
 nav_order: 2
 ---
 
-# Configuring Apache
+# Installing and Configuring Apache
 
 1. Install Apache. See [Prerequisites](../prereqs.md) for complete installation instructions.
 

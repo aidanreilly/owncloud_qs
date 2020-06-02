@@ -1,6 +1,6 @@
 ---
 title: Updating CentOS 8
-parent: Installing and configuring the software
+parent: Installing and configuring the ownCloud software
 has_children: false
 nav_order: 1
 ---

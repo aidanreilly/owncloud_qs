@@ -1,6 +1,6 @@
 ---
 title: Creating new ownCloud user accounts
-parent: Installing and configuring the software
+parent: Installing and configuring the ownCloud software
 has_children: false
 nav_order: 7
 ---

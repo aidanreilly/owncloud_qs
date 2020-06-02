@@ -1,6 +1,6 @@
 ---
 title: Installing and configuring ownCloud
-parent: Installing and configuring the software
+parent: Installing and configuring the ownCloud software
 has_children: false
 nav_order: 5
 ---

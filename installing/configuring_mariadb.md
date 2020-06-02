@@ -1,11 +1,11 @@
 ---
-title: Installing and configuring MariaDB
+title: Installing and configuring MariaDB database
 parent: Installing and configuring the ownCloud software
 has_children: false
 nav_order: 3
 ---
 
-# Installing and configuring MariaDB
+# Installing and configuring MariaDB database
 
 1. Install MariaDB. See [Prerequisites](../prereqs.md) for complete installation instructions.
 

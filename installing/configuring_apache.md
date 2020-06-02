@@ -1,11 +1,11 @@
 ---
-title: Installing and configuring Apache
+title: Installing and configuring Apache webserver
 parent: Installing and configuring the ownCloud software
 has_children: false
 nav_order: 2
 ---
 
-# Installing and configuring Apache
+# Installing and configuring Apache webserver
 
 1. Install Apache. See [Prerequisites](../prereqs.md) for complete installation instructions.
 

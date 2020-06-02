@@ -1,0 +1,1 @@
+Source files for the ownCloud Quickstart Guide. This QuickStart was fully tested on CentOS 8, package release 147.8.1.el8_1. 

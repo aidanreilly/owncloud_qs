@@ -2,7 +2,7 @@ title: ownCloud Quickstart Guide
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "nil"
 search_enabled: true
-description: Everything you need to install and configure ownCloud on CentOS 8. This Quickstart guide was fully tested on CentOS 8, package release 147.8.1.el8_1.
+description: Everything you need to install and configure ownCloud on CentOS 8. This quickstart guide was fully tested on CentOS 8, package release 147.8.1.el8_1.
 # Set the search token separator for hyphenated-word search:
 search_tokenizer_separator: /[\s/]+/
 

@@ -5,9 +5,9 @@ has_children: false
 nav_order: 1
 ---
 
-# Updating CentOS
+# Updating CentOS 8
 
-Update your CentOS software packages. This will minimime software installation conflicts.  
+Update your CentOS 8 software packages. This will minimime software installation conflicts.  
 
 ```shell
 	sudo dnf update

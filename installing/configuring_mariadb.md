@@ -7,7 +7,7 @@ nav_order: 3
 
 # Installing and configuring MariaDB database
 
-1. Install MariaDB. See [Prerequisites](../prereqs.md) for complete installation instructions.
+1. Install MariaDB database. See [Prerequisites](../prereqs.md) for complete installation instructions.
 
 2. Verify that MariaDB is installed correctly.
 ```shell
@@ -21,7 +21,7 @@ You should see a message that the database is active and running.
 	systemctl enable mariadb
 ```
 
-4. Lastly, create the database. Log in to the MariaDB database engine.
+4. Lastly, create the database. Sign in to the MariaDB database engine.
 ```shell
 	mysql -u root -p
 ```

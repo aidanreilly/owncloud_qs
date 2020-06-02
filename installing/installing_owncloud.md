@@ -17,7 +17,7 @@ nav_order: 5
 	sudo tar -jxf ownCloud-10.4.1.tar.bz2 -C /var/www/
 ```
 
-3. Configure the Apache webserver to serve the application by creating a new deployment configuration. 
+3. Configure the Apache webserver to serve the ownCloud application by creating a new deployment configuration. 
 ```shell
 	sudo nano /etc/httpd/conf.d/ownCloud.conf
 ```

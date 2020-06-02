@@ -7,7 +7,7 @@ nav_order: 2
 
 # Installing and configuring Apache webserver
 
-1. Install Apache. See [Prerequisites](../prereqs.md) for complete installation instructions.
+1. Install Apache webserver. See [Prerequisites](../prereqs.md) for complete installation instructions.
 
 2. Verify that Apache is installed correctly. Enter the following at the command line:
 ```shell
@@ -41,4 +41,4 @@ You should see the apache server active on default port 80:
 	Listen 8080
 ```
 
-6. Open a browser and check that Apache is available at http://127.0.0.1:8080. You should see a test page. This means that Apache is running and succesfully configured to listen on port 8080.
+6. Open a browser and check that Apache is available at [http://127.0.0.1:8080](http://127.0.0.1:8080). You should see a test page. This means that Apache is running and succesfully configured to listen on port 8080.

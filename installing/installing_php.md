@@ -39,7 +39,7 @@ The available PHP modules, stream, and installation profiles are listed.
 ```shell
 	php -v 
 ```
-You should see a message with the PHP version - `PHP 7.3.18`. 
+You should see a message with the PHP version: `PHP 7.3.18`. 
 
 7. To complete the PHP installation, install PHP, PHP-FPM (FastCGI Process Manager) and associated PHP modules.
 ```shell
@@ -50,7 +50,7 @@ You should see a message with the PHP version - `PHP 7.3.18`.
 ```shell
 	sudo systemctl start php-fpm
 ```
-You should see a message that the php-fpm.service is active: 
+You should see a message that the PHP-FPM service is active: 
 `Active: active (running) since Mon 2020-06-01 22:40:24 GMT; 30s ago`
 
 9. Set PHP-FPM to start automatically at system boot time.

@@ -15,6 +15,7 @@ To access ownCloud, download the appropriate application for your device or oper
 |Linux|[Desktop client for Linux](https://software.opensuse.org/download.html?project=isv:ownCloud:desktop&package=ownCloud-client)|
 |iOS|[Apple Appstore](https://apps.apple.com/app/id1359583808)|
 |Android|[Google Play](https://play.google.com/store/apps/details?id=com.ownCloud.android)|
+
 **Table 2: ownCloud client applications**
 
 To install the desktop client on CentOS 8 from source, enter the following at the command line as root user:

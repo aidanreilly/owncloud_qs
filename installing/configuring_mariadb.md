@@ -9,7 +9,7 @@ nav_order: 4
 
 1. Install MariaDB. See Prerequisites](../prereqs.md) for complete installation instructions.
 
-2. Verify that MariaDB is installed.
+2. Verify that MariaDB is installed correctly.
 ```shell
 	systemctl status mariadb
 ```

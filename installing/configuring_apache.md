@@ -9,7 +9,7 @@ nav_order: 2
 
 1. Install Apache. See [Prerequisites](../prereqs.md) for complete installation instructions.
 
-2. Verify Apache is installed and running. Enter the following at the command line:
+2. Verify Apache is installed correctly. Enter the following at the command line:
 ```shell
 	sudo systemctl start httpd
 ```

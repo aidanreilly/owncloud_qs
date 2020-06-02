@@ -1,4 +1,4 @@
-![](/owncloud.png)
+![](/owncloud.png | width=200)
 
 ownCloud is an open source file sharing and collaboration platform that allows users to share files and folders easily. ownCloud can be accessed easily from any device, with client apps for web, desktop, iOS and Android. 
 

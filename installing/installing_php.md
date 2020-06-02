@@ -44,14 +44,14 @@ The available PHP modules, stream, and installation profiles are listed.
 ```shell
 	sudo systemctl status php-fpm
 ```
-You should see a message that the php-fpm.service is active.  
+You should see a message that the php-fpm.service is active: 
 `Active: active (running) since Mon 2020-06-01 22:40:24 GMT; 30s ago`
 
 8. Verify the PHP version.
 ```shell
 	php -v 
 ```
-You should see a `PHP 7.3.18` message. 
+You should see a message with the PHP version - 7.3.18. 
 
 9. Start up php-fpm:
 ```shell

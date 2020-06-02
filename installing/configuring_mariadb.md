@@ -26,7 +26,7 @@ You should see a message that the database is active and running.
 	mysql -u root -p
 ```
 Create the database and add an admin user.
-```mySQL
+```
 	MariaDB [(none)]> CREATE DATABASE ownCloud_db;
 	MariaDB [(none)]> GRANT ALL ON ownCloud_db.* TO 'owncloud_admin'@'localhost' IDENTIFIED BY 'YourStrongP@ssword';
 	MariaDB [(none)]> FLUSH PRIVILEGES;

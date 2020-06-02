@@ -13,6 +13,6 @@ aux_links:
   "Aidan Reilly on GitHub":
     - "//github.com/aidanreilly"
 # Footer content appears at the bottom of every page's main content
-footer_content: "<a href = \"mailto:aidreilly@gmail.com\">Can Haz Job?</a>"
+footer_content: "<a href = \"mailto:aidreilly@gmail.com\">Send me an email...</a>"
 
 

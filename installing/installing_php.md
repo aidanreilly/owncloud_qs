@@ -2,7 +2,7 @@
 title: Installing and configuring PHP
 parent: Installing and configuring the software
 has_children: false
-nav_order: 3
+nav_order: 4
 ---
 
 # Installing and configuring PHP

@@ -22,10 +22,8 @@ nav_order: 5
 	sudo nano /etc/httpd/conf.d/ownCloud.conf
 ```
 Append the following to `ownCloud.conf`:
-
 ```
 Alias /ownCloud "/var/www/ownCloud/"
-
 <Directory /var/www/ownCloud/>
   Options +FollowSymlinks
   AllowOverride All
@@ -36,12 +34,10 @@ Alias /ownCloud "/var/www/ownCloud/"
  SetEnv HTTP_HOME /var/www/ownCloud
 </Directory>
 ```
-
 Save and exit the file, and restart the webserver.
 ```shell
 	sudo systemctl restart httpd
 ```
-
 4. Allow the Apache webserver to write to ownCloud’s directory under SELinux.
 ```shell
 	sudo setsebool -P httpd_unified 1

@@ -21,9 +21,3 @@ To install the desktop client on CentOS 8 from source, enter the following at th
 	cd /etc/yum.repos.d/
 	wget https://download.opensuse.org/repositories/isv:ownCloud:desktop/CentOS_8/isv:ownCloud:desktop.repo
 	yum install ownCloud-client
-
-## Logging in to ownCloud
-
-1. Once downloaded and installed, launch the application. 
-2. On first opening of the application, you are promoted for the ownCloud server URL. Enter the URL provided by your Administrator.
-3. Enter your username and password as provided by your administrator.

@@ -1,3 +1,9 @@
+---
+title: Creating new ownCloud user accounts
+has_children: false
+nav_order: 4
+---
+
 #Creating new ownCloud user accounts
 
 1. Log into ownCloud as administrator.

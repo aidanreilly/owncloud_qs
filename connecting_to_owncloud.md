@@ -1,3 +1,9 @@
+---
+title: Installling and configuring the software
+has_children: false
+nav_order: 5
+---
+
 #Connecting to ownCloud using the desktop client or app
 
 You can access ownCloud on desktop or mobile using the following links: 

@@ -1,3 +1,9 @@
+---
+title: Installling and configuring the software
+has_children: false
+nav_order: 3
+---
+
 #Installling and configuring the software
 
 Note: This QuickStart was tested on CentOS 8, package release 147.8.1.el8_1. To install ownCloud on CentOS, you must have root access on the host machine.

@@ -7,6 +7,8 @@ nav_order: 1
 
 ## Logging in to ownCloud
 
-1. Once downloaded and installed, launch the application. 
+> Download and install the application for your operating system or device: [Connecting to ownCloud using the desktop client or app](connecting_to_owncloud.md).
+
+1. Launch the application. 
 2. On first opening of the application, you are promoted for the ownCloud server URL. Enter the URL provided by your Administrator.
 3. Enter your username and password as provided by your administrator.

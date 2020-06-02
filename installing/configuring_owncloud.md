@@ -40,4 +40,4 @@ Then, restart Apache:
 
 Finally, visit 127.0.0.1/owncloud in a browser on the host machine where you installed ownCloud. Enter an admin username and password when prompted to do so. 
 
-*Note:* Configuring ownCloud web addresses and access over the open internet is beyond the scope of this Quickstart guide. To learn more, visit [Changing Your ownCloud URL](https://doc.ownCloud.com/server/admin_manual/installation/changing_the_web_route.html)
+> *Note:* Configuring ownCloud web addresses and access over the open internet is beyond the scope of this Quickstart guide. To learn more, visit [Changing Your ownCloud URL](https://doc.ownCloud.com/server/admin_manual/installation/changing_the_web_route.html)

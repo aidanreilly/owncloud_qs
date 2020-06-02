@@ -2,7 +2,7 @@ title: ownCloud Quickstart Guide
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "nil"
 search_enabled: true
-description: Everything you need to install and configure ownCloud on CentOS. This Quickstart guide was fully tested on CentOS 8, package release 147.8.1.el8_1.
+description: Everything you need to install and configure ownCloud on CentOS 8. This Quickstart guide was fully tested on CentOS 8, package release 147.8.1.el8_1.
 # Set the search token separator for hyphenated-word search:
 search_tokenizer_separator: /[\s/]+/
 
@@ -13,6 +13,6 @@ aux_links:
   "Aidan Reilly on GitHub":
     - "//github.com/aidanreilly"
 # Footer content appears at the bottom of every page's main content
-footer_content: "<a href = \"mailto:aidreilly@gmail.com\">Like what you see? Send me an email :)</a>"
+footer_content: "<a href = \"mailto:aidreilly@gmail.com\">Get in touch...</a>"
 
 

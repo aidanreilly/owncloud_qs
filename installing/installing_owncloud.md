@@ -7,22 +7,21 @@ nav_order: 5
 
 # Installing and configuring ownCloud
 
-Download the latest ownCloud package.
+1. Download the latest ownCloud package.
 ```shell
 	wget https://download.owncloud.org/community/ownCloud-10.4.1-qa.tar.bz2
 ```
 
-Extract the `ownCloud-10.4.1.tar.bz2` tarball file to the /var/www/ directory.
+2. Extract the `ownCloud-10.4.1.tar.bz2` tarball file to the /var/www/ directory.
 ```shell
 	sudo tar -jxf ownCloud-10.4.1.tar.bz2 -C /var/www/
 ```
 
-Configure the Apache webserver to serve the application by creating a new deployment configuration. 
+3. Configure the Apache webserver to serve the application by creating a new deployment configuration. 
 ```shell
 	sudo nano /etc/httpd/conf.d/ownCloud.conf
 ```
 Append the following to `ownCloud.conf`:
-
 ```
 Alias /ownCloud "/var/www/ownCloud/"
 
@@ -44,9 +43,9 @@ Save and exit the file, and restart the webserver.
 	sudo systemctl restart httpd
 ```
 
-Allow the Apache webserver to write to ownCloud’s directory under SELinux.
+4. Allow the Apache webserver to write to ownCloud’s directory under SELinux.
 ```shell
 	sudo setsebool -P httpd_unified 1
 ```
 
-Finally, create the admin onwCloud user. Visit 127.0.0.1/owncloud in a browser on the host where you have installed ownCloud. The first time you enter the site, you will be prompted to create an administrator username and password.
+Finally, create the administrator ownCloud user. Visit http://127.0.0.1/owncloud in a web browser on the host where you have installed the ownCloud server. The first time you enter the site, you will be prompted to create an administrator username and password. Use this account to administer ownCloud and manage users. 

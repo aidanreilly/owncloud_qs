@@ -7,7 +7,9 @@ nav_order: 4
 
 # Configuring MariaDB
 
-1. Verify that MariaDB is installed.
+1. Install MariaDB. See Prerequisites](../prereqs.md) for complete installation instructions.
+
+2. Verify that MariaDB is installed.
 ```shell
 	systemctl status mariadb
 ```
@@ -15,12 +17,12 @@ You should see a message that the database is active and running.
 `Active: active (running) since Mon 2020-06-01 22:31:25 GMT; 24s ago`
 If MariaDB is not installed, please follow the instructions described in [prerequisite](prerequisites.md)
 
-2. Set MariaDB to start up automatically at system boot time.
+3. Set MariaDB to start up automatically at system boot time.
 ```shell
 	systemctl enable mariadb
 ```
 
-3. Create a database for ownCloud files. Log in to the MariaDB database engine:
+4. Create a database for ownCloud files. Log in to the MariaDB database engine:
 
 ```shell
 	mysql -u root -p

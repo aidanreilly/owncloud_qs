@@ -1,20 +1,20 @@
 ---
 title: Installling and configuring the software
-has_children: false
+has_children: true
 nav_order: 3
 ---
 
-#Installling and configuring the software
+# Installling and configuring the software
 
 Note: This QuickStart was tested on CentOS 8, package release 147.8.1.el8_1. To install ownCloud on CentOS, you must have root access on the host machine.
 
-##Updating CentOS
+## Updating CentOS
 
 Update your CentOS software packages. This will minimime software installation conflicts.  
 
 	sudo dnf update
 
-##Configuring Apache
+## Configuring Apache
 
 Verify Apache is installed and start it running. Enter the following at the command line:
 
@@ -45,7 +45,7 @@ Update Apache to listen on port 8080. Add a new line to httpd.conf below the def
 
 Open a browser and check that Apache is available at http://127.0.0.1:8080. You should see a test page. This means that Apache is running and succesfully configured.  
 
-##Installing and configuring PHP
+## Installing and configuring PHP
 
 Note: ownCloud 10.4.1 on CentOS 8 requires PHP 7.3. PHP versions later than 7.3 are not supported. Check the [ownCloud Supported Prerequisties](https://doc.ownCloud.com/server/10.2/admin_manual/installation/system_requirements.html) for latest supported PHP version. 
 
@@ -103,7 +103,7 @@ Restart the Apache web server to allow Apache to start using PHP.
 	
 	sudo systemctl restart httpd
 
-##Configuring MariaDB
+## Configuring MariaDB
 
 Verify that MariaDB is installed.
 
@@ -130,7 +130,7 @@ Create an ownCloud database, and add an admin user:
 	MariaDB [(none)]> FLUSH PRIVILEGES;
 	MariaDB [(none)]> EXIT;
 
-##Installing and configuring ownCloud
+## Installing and configuring ownCloud
 
 Download the latest ownCloud package.
 
@@ -171,7 +171,7 @@ Allow the Apache webserver to write to ownCloud’s directory under SELinux:
 
 	sudo setsebool -P httpd_unified 1
 
-##Configuring the ownCloud IP address
+## Configuring the ownCloud IP address
 
 To allow users to access the ownCloud application over the network, you must update the trusted domains list in `config.php` with the host IP address.
 

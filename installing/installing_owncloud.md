@@ -1,7 +1,7 @@
 ---
 title: Installing and configuring the ownCloud server
 parent: Installing and configuring the ownCloud software
-has_children: true
+has_children: false
 nav_order: 5
 ---
 

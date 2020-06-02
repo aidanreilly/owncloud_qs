@@ -11,31 +11,42 @@ Note: ownCloud 10.4.1 on CentOS 8 requires PHP 7.3. PHP versions later than 7.3 
 
 Install the EPEL repository.
 
+```shell
 	sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-
+```
 Next, install yum utils and enable the remi-repository:
 
+```shell
 	sudo dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
-
+```
 After installing yum-utils and Remi packages, search for available PHP modules:
-	
+
+```shell
 	sudo dnf module list php
+```
 
 The available PHP modules, stream, and installation profiles are listed. Next, reset PHP to the base version:
 
+```shell
 	sudo dnf module reset php
+```
 
 Following reset, enable the PHP Remi 7.3 module. 
-	
+
+```shell	
 	sudo dnf module enable php:remi-7.3
+```
 
 To complete the PHP installation, install PHP, PHP-FPM (FastCGI Process Manager) and associated PHP modules: 
 
+```shell
 	sudo dnf install php php-opcache php-gd php-curl php-mysqlnd php-intl php-json php-ldap php-mbstring php-xml php-zip
-
+```
 Check that php-fpm is running:
 
+```shell
 	sudo systemctl status php-fpm
+```
 
 You should see a message that the php-fpm.service is active.  
 
@@ -43,22 +54,29 @@ You should see a message that the php-fpm.service is active.
 
 Verify the PHP version.
 
+```shell
 	php -v 
-
+```
 You should see a `PHP 7.3.18` message. 
 
 Start up php-fpm:
 
+```shell
 	sudo systemctl start php-fpm
-
+```
 Next, set PHP-FPM to start up automatically at system boot time.
 
+```shell
 	sudo systemctl enable php-fpm
+```
 
 Configure SELinux to allow Apache to execute PHP code with PHP-FPM:
-	
-	setsebool -P httpd_execmem 1
 
+```shell	
+	setsebool -P httpd_execmem 1
+```
 Restart the Apache web server to allow Apache to start using PHP.
-	
+
+```shell	
 	sudo systemctl restart httpd
+```

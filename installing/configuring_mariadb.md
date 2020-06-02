@@ -9,8 +9,9 @@ nav_order: 4
 
 Verify that MariaDB is installed.
 
+```shell
 	systemctl status mariadb
-
+```
 You should see a message that the database is active and running. 
 
 	Active: active (running) since Mon 2020-06-01 22:31:25 GMT; 24s ago
@@ -19,11 +20,15 @@ If MariaDB is not installed, please follow the instructions described in [prereq
 
 Next, set MariaDB to start up automatically at system boot time.
 
+```shell
 	systemctl enable mariadb
+```
 
 Log in to the MariaDB database engine.
 
+```shell
 	mysql -u root -p
+```
 
 Create an ownCloud database, and add an admin user:  
 

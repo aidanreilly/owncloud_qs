@@ -38,7 +38,12 @@ Update Apache to listen on port 8080. Add a new line to httpd.conf below the def
 	sudo nano /etc/httpd/conf/httpd.conf 
 ```
 
+	# Change this to Listen on specific IP addresses as shown below to 
+	# prevent Apache from glomming onto all bound IP addresses.
+	#
+	#Listen 12.34.56.78:80
 	Listen 80
 	Listen 8080
+
 
 Open a browser and check that Apache is available at http://127.0.0.1:8080. You should see a test page. This means that Apache is running and succesfully configured.  

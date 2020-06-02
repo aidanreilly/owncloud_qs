@@ -9,4 +9,6 @@ nav_order: 1
 
 Update your CentOS software packages. This will minimime software installation conflicts.  
 
+```shell
 	sudo dnf update
+```

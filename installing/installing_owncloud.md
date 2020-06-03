@@ -46,4 +46,4 @@ Save and exit the file, and restart the webserver.
 
 5. Create the administrator ownCloud user. Visit [http://127.0.0.1/owncloud](http://127.0.0.1/owncloud) in a web browser on the host where you have installed the ownCloud server. The first time you enter the site, you will be prompted to create an administrator username and password. Use this account to administer ownCloud and manage users. 
 
-6. At first launch of the ownCloud server, you also need to configure the database. Select MySQL/MariaDB as the database from the **Storage & database** drop-down menu. Enter the database name, administrator user and password that you created when configuring the MariaDB database.
+6. At first launch of the ownCloud server, you also need to configure the database. Select MySQL/MariaDB as the database from the **Storage & database** drop-down menu. Enter the database name, administrator username and password that you created when configuring the MariaDB database.

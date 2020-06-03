@@ -25,7 +25,7 @@ You should see a message that the database is active and running.
 ```shell
 	mysql -u root -p
 ```
-Create the database and add an admin user.
+Create the database and add an administrator user. You'll use this administrator user to connect to the database from the ownCloud application. 
 ```
 	MariaDB [(none)]> CREATE DATABASE ownCloud_db;
 	MariaDB [(none)]> GRANT ALL ON ownCloud_db.* TO 'owncloud_admin'@'localhost' IDENTIFIED BY 'YourStrongP@ssword';

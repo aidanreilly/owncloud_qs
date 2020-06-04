@@ -13,7 +13,7 @@ To access ownCloud, download the appropriate application for your device or oper
 |Windows|[Desktop client for Windows](https://download.ownCloud.com/desktop/stable/ownCloud-2.6.1.13407.13049.msi)|
 |Mac OSX|[Desktop client for Mac OSX](https://download.ownCloud.com/desktop/stable/ownCloud-2.6.1.13096.pkg)|
 |Linux|[Desktop client for Linux](https://software.opensuse.org/download.html?project=isv:ownCloud:desktop&package=ownCloud-client)|
-|iOS|[Apple Appstore](https://apps.apple.com/app/id1359583808)|
+|iOS|[Apple App Store](https://apps.apple.com/app/id1359583808)|
 |Android|[Google Play](https://play.google.com/store/apps/details?id=com.ownCloud.android)|
 
 **Table 2: ownCloud client applications**
